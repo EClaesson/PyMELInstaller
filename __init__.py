@@ -42,7 +42,7 @@ def _downloadCallback(blocks, blockSize, totalSize):
 		_lastShownPct = pctTen
 		print str(int(pctTen)) + '%'
 
-def installPyMEL(version = '1.0.5rc2'):
+def installPyMEL(version = '1.0.6rc3'):
 	"""If the specified version of PyMEL is not installed, it is installed in '<User Home>/PyMEL/<version>'.
 	   version is a git tag name."""
 
